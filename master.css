@@ -1,0 +1,182 @@
+﻿/*css for master page*/
+body {
+    font-family:Cambria,Georgia,"Times New Roman";margin:0;
+    min-width:300px;
+    overflow:auto;
+}
+ #headerf {
+    height:40px;
+    width:100%;
+    margin:0;
+    background-color:red;
+}
+
+#headersec {
+    
+    background-color:#ce1313;
+    height:120px;
+    width:100%;
+    margin:0;
+    overflow:auto;
+} 
+#headerthird {
+    height:50px;
+    width:100%;
+    margin:0;
+    background-color:#000;
+}
+
+#navList
+{
+    float:right;
+    width:500px;
+    height:29px;
+    padding:0;
+    margin:0;
+    list-style-type:none;
+}
+.navA
+{
+    font-weight:bold;
+    float:right;
+    width:6em;
+    height:29px;
+    text-decoration:none;
+    color:white;
+    background-color:black;
+    padding:10px 6px 10px 13px ;
+    border-right:1px solid black;
+}
+a.navA:hover {background-color:#a1310d;}
+.navLI {display:inline;}
+#siteName {
+    padding-left:40px;
+    padding-top:    30px;
+    margin-left:0px;
+    margin-top:0px;
+    font-size:46px;
+    font-weight:bold;
+    color:white;
+
+}
+/*...css for Home page....*/
+#login {
+    width:170px;
+    float:right;
+    margin-right:20px;
+    margin-top:10px;
+}
+#passwrd {
+    margin-top:10px;
+    border-radius:4px;
+
+}
+#loginbutton {
+    margin-top:10px;
+    margin-right:0px;
+}
+
+
+.txtbox  {
+    border-radius:4px;
+}
+
+.hlink {
+    margin-left:10px;
+    position:absolute;
+}
+.txtbx {
+    border-radius:4px;
+    border:1px solid black;
+    margin-top:3px;
+    margin-left:10px;
+}
+
+#wrapHome {
+    margin-left:auto;
+    margin-right:auto;
+}
+@media (max-width: 400px) {
+    .right {
+        float: left;   
+    }
+}
+#qtable {
+    margin-top:-200px;
+    margin-left:330px;
+    width:700px;
+    float:left;
+}
+.tablehData {
+    font-size: large;
+    font-weight: bold;
+    padding-left: 8px;
+    padding-top: 5px;
+}
+tr.theader td{ 
+    border-bottom: 1px solid #B4B5B0;
+    font-size: larger;
+    font-weight: bold;
+     padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom:5px;
+}
+tr.tableData td {
+    border-bottom: 1px solid #B4B5B0; 
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom:5px;
+}
+.tableQuestions {
+    font-size:large;
+    font-weight:bold;
+    color:#53a3f1;
+}
+/*css for Question page*/
+#question {
+    margin-top:50px;
+    margin-left:330px;
+    width:700px;
+}
+#qTitle {
+border-bottom:1px solid #B4B5B0;
+margin-bottom:10px;
+}
+.qTitleH {
+    font-size:large;
+    font-weight:bold;
+    color:blue;
+}
+#qDescription {
+    margin-bottom:20px;
+    font:medium,#247bf5;
+}
+.answearArea, .description {
+    width: 600px;
+    height: 270px;
+    font-size:large;
+}
+
+#answear {
+    margin-bottom:20px;
+
+font:medium;
+}
+.tagLbl {
+    font-size:medium;
+    font-weight:400;
+    margin-right:3px;
+    
+    background-color:#d5e6ed;
+    border-radius:3px;
+    color:black;
+}
+.divTgs {
+    
+float:right;
+margin-right:100px;
+margin-top:50px;
+}
+.divTagsR {
+    margin-bottom:6px;
+}

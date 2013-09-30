@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="DotnetHome.master.cs" Inherits="WebApplication2.DotnetHome" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="~/master.css" rel="stylesheet" type="text/css"  runat="server" />
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="wrap">
+        <div id="headerf">
+
+        </div>
+        <div id="headersec">
+             <div id="siteName">.Net Community</div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">       
+                    
+            </asp:ContentPlaceHolder>
+        </div>
+            
+        <div id="headerthird">
+            <ul id="navList">
+                <li class="navLI"><a href="Home.aspx" class="navA">Home</a></li>
+                <li class="navLI"><a href="MostViewedQuestions.aspx" class="navA">Most Viewed</a></li>
+                <li class="navLI"><a href="Ask.aspx" class="navA">Ask Question</a></li>
+                <li class="navLI"><a href="Users.aspx" class="navA">Users</a></li>
+            </ul>
+        </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">      
+            </asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder4" runat="server">      
+            </asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder5" runat="server">      
+            </asp:ContentPlaceHolder>
+ </div>
+    </form>
+</body>
+</html>
